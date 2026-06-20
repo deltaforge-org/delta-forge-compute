@@ -1,0 +1,3 @@
+# Release notes
+
+- [v1.0.7](v1.0.7.md)
