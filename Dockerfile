@@ -44,7 +44,7 @@ COPY --chown=65532:65532 deltaforge-compute /usr/local/bin/deltaforge-compute
 
 USER 65532
 
-ENV CONTROL_PLANE_URL=http://control-plane:3000 \
+ENV CONTROL_PLANE_URL=http://platform:3000 \
     BIND_HOST=0.0.0.0 \
     BIND_PORT=8081 \
     MAX_CONCURRENT_QUERIES=16 \
